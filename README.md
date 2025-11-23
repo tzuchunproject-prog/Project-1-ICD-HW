@@ -51,20 +51,20 @@ AR 裝置（如 AR 眼鏡、手機 ISP、AI Camera）必須：
 ## 🗂 專案目錄結構
 
 ar-hpc-project/
-│
-├── baseline.c # 原始三層迴圈實作
-├── optimized.c # 記憶體與運算優化版本
-├── openmp.c # OpenMP 平行版（可視平台啟用）
-│
-├── test_gray.bmp # 測試用灰階影像
-├── optimized_conv.bmp
-├── optimized_sobel.bmp
-│
-├── timings.csv # 各版本執行時間比較
-├── conv_times.png # 卷積效能圖
-├── sobel_times.png # Sobel 效能圖
-│
-└── README.md
+
+──> baseline.c # 原始三層迴圈實作
+──> optimized.c # 記憶體與運算優化版本
+──> openmp.c # OpenMP 平行版（可視平台啟用）
+
+──> test_gray.bmp # 測試用灰階影像
+──> optimized_conv.bmp
+──> optimized_sobel.bmp
+
+──> timings.csv # 各版本執行時間比較
+──> conv_times.png # 卷積效能圖
+──> sobel_times.png # Sobel 效能圖
+
+
 
 
 ## 🔧 編譯方式
